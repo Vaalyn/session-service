@@ -1,0 +1,22 @@
+{
+    "name": "vaalyn/session-service",
+    "description": "A session service for the Slim Framework 3",
+	"keywords": ["session", "service", "slim"],
+	"homepage": "https://github.com/Vaalyn/session-service",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Vaalyn",
+            "email": "vaalyndev@gmail.com"
+        }
+    ],
+    "require": {
+		"php": ">=7.2.0"
+	},
+	"autoload": {
+        "psr-4": {
+			"Vaalyn\\SessionService\\": "src"
+        }
+    }
+}
