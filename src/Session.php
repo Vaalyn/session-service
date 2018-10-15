@@ -80,7 +80,7 @@ class Session implements SessionInterface {
 		);
 
 		session_name($this->settings['name']);
-		session_cache_limiter('private');
+		session_cache_limiter('');
 		session_start();
 
 		setcookie(
